@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PocketAuth" parent="" />
+
+    <!-- Applied only to the login and registration layouts. -->
+    <style name="ThemeOverlay.PocketAuth" parent="ThemeOverlay.Material3.Dark">
+        <item name="colorPrimary">#71E2CA</item>
+        <item name="colorOnPrimary">#08231E</item>
+        <item name="colorSurface">#151F30</item>
+        <item name="colorOnSurface">#F1F5FC</item>
+        <item name="colorOnSurfaceVariant">#AAB8CE</item>
+        <item name="colorOutline">#61718A</item>
+        <item name="colorError">#FFB4AB</item>
+        <item name="android:textColorHint">#AAB8CE</item>
+    </style>
+
+    <style name="PocketAuth.Brand">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#71E2CA</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.18</item>
+    </style>
+
+    <style name="PocketAuth.Heading">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">#F1F5FC</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+
+    <style name="PocketAuth.Subtitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textColor">#AAB8CE</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+
+    <style name="PocketAuth.Field"
+        parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">#AAB8CE</item>
+        <item name="boxBackgroundColor">#101928</item>
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+        <item name="hintTextColor">#71E2CA</item>
+        <item name="endIconTint">#AAB8CE</item>
+        <item name="helperTextTextColor">#AAB8CE</item>
+    </style>
+
+    <style name="PocketAuth.Input"
+        parent="Widget.Material3.TextInputEditText.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">58dp</item>
+        <item name="android:textColor">#F1F5FC</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">18dp</item>
+    </style>
+
+    <style name="PocketAuth.PrimaryButton"
+        parent="Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="PocketAuth.TextButton"
+        parent="Widget.Material3.Button.TextButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>
